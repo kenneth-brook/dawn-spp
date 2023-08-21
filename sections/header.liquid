@@ -342,22 +342,6 @@
 </{% if section.settings.sticky_header_type != 'none' %}sticky-header{% else %}div{% endif %}>
 
 
-
-<script>
-
-    let items = document.querySelector(".header___inline-menu").querySelectorAll("details");
-    items.forEach(item => {
-      item.setAttribute("open", true);
-      item.querySelector("ul").addEventListener("mouseleave", () => {
-        item.removeAttribute("open");
-      });
-      item.addEventListener("mouseleave", () => {
-        item.removeAttribute("open");
-      });
-    });
-           });
-         </script>
-
   
 
 {%- if settings.cart_type == "notification" -%}
