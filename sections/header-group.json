@@ -16,6 +16,7 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "show_line_separator": true,
@@ -50,6 +51,7 @@
       "blocks": {
         "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
@@ -57,6 +59,7 @@
         },
         "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
@@ -64,6 +67,7 @@
         },
         "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-buttons-1": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Button label",
             "button_link_1": "",
