@@ -29,7 +29,6 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
@@ -46,10 +45,10 @@
         "padding_bottom": 20
       }
     },
-    "38cfa7a8-9dc1-4379-805f-3cbc69add768": {
-      "type": "custom-head",
+    "3bb85f1a-22f1-4997-b725-5c5ab559e401": {
+      "type": "image-banner",
       "blocks": {
-        "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-heading-1": {
+        "sections--20710880018748__3bb85f1a-22f1-4997-b725-5c5ab559e401-heading-1": {
           "type": "heading",
           "disabled": true,
           "settings": {
@@ -57,7 +56,7 @@
             "heading_size": "h1"
           }
         },
-        "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-text-1": {
+        "sections--20710880018748__3bb85f1a-22f1-4997-b725-5c5ab559e401-text-1": {
           "type": "text",
           "disabled": true,
           "settings": {
@@ -65,7 +64,7 @@
             "text_style": "body"
           }
         },
-        "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-buttons-1": {
+        "sections--20710880018748__3bb85f1a-22f1-4997-b725-5c5ab559e401-buttons-1": {
           "type": "buttons",
           "disabled": true,
           "settings": {
@@ -79,27 +78,17 @@
         }
       },
       "block_order": [
-        "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-heading-1",
-        "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-text-1",
-        "sections--20710880018748__38cfa7a8-9dc1-4379-805f-3cbc69add768-buttons-1"
+        "sections--20710880018748__3bb85f1a-22f1-4997-b725-5c5ab559e401-heading-1",
+        "sections--20710880018748__3bb85f1a-22f1-4997-b725-5c5ab559e401-text-1",
+        "sections--20710880018748__3bb85f1a-22f1-4997-b725-5c5ab559e401-buttons-1"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     }
   },
   "order": [
     "announcement-bar",
     "header",
-    "38cfa7a8-9dc1-4379-805f-3cbc69add768"
+    "3bb85f1a-22f1-4997-b725-5c5ab559e401"
   ]
 }
