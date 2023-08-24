@@ -1,14 +1,12 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "spp-header-bar": {
+      "type": "spp-header-bar",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     }
   },
   "order": [
-    "main"
+    "spp-header-bar"
   ]
 }
