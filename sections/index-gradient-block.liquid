@@ -18,6 +18,14 @@
     align-items: center;
   }
 
+  .decoWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 999;
+  }
+
   .decoBox {
     width: 15px;
     height: 600px;
@@ -27,11 +35,11 @@
   }
 
   .decoBoxLeft {
-    left: 0;
+
   }
 
   .decoBoxRight {
-    left: 100%;
+;
     
   }
 
@@ -71,8 +79,10 @@
 
 <div class="gradWrap">
     <div class="infoBox">
+      <div class="decoWrap">
       <div class="decoBox decoBoxLeft"></div>
       <div class="decoBox decoBoxRight"></div>
+      </div>
       <div class="innerInfoWrap">
         <div class="infoBlock">
           <h4>When you choose Southern Pecan Products, you support a Centennial Farm, established in 1910. The fourth and fifth generations of the Levie family continue to produce some 
