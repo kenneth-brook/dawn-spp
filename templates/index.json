@@ -14,11 +14,17 @@
       "type": "index-gradient-block",
       "settings": {
       }
+    },
+    "index-menu-vid-box": {
+      "type": "index-menu-vid-box",
+      "settings": {
+      }
     }
   },
   "order": [
     "spp-header-bar",
     "spp-index-hero",
-    "index-gradient-block"
+    "index-gradient-block",
+    "index-menu-vid-box"
   ]
 }
