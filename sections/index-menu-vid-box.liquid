@@ -18,8 +18,49 @@
     background-color: white;
     min-height: 400px;
   }
+
+  .menuVidWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menuBox {
+    width: 25%;
+    background-color: #78B000;
+  }
+
+  .menuBox ul:not(:first-child) {
+    padding: 10px 0;
+    border-bottom: 2px dashed #588100;
+  }
+
+  .menuBox ul li {
+    color: white;
+  }
+
+  .vidBox {
+    width: 70%
+  }
 </style>
 
 <div class="menuVidWrap">
-  <div class="bowTop"></div>
+  <div class="bowTop">
+    <div class="menuVidBox">
+      <div class="menuBox">
+        <ul>
+          <li>
+            <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_191.jpg?v=1692910681" loading="lazy" />
+          </li>
+          <li>Shelled Pecans</li>
+          <li>In Shell Pecans</li>
+          <li>Cracked Pecans</li>
+          <li>Roasted Pecan</li>
+          <li>Pecan Treats</li>
+          <li>Holiday Tins</li>
+        </ul>
+      </div>
+      <div class="vidBox"><h2>vid goes here</h2></div>
+    </div>
+  </div>
 </div>
