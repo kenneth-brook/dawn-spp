@@ -9,10 +9,16 @@
       "type": "spp-index-hero",
       "settings": {
       }
+    },
+    "index-gradient-block": {
+      "type": "index-gradient-block",
+      "settings": {
+      }
     }
   },
   "order": [
     "spp-header-bar",
-    "spp-index-hero"
+    "spp-index-hero",
+    "index-gradient-block"
   ]
 }
