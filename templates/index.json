@@ -19,12 +19,18 @@
       "type": "index-menu-vid-box",
       "settings": {
       }
+    },
+    "index-wood": {
+      "type": "index-wood",
+      "settings": {
+      }
     }
   },
   "order": [
     "spp-header-bar",
     "spp-index-hero",
     "index-gradient-block",
-    "index-menu-vid-box"
+    "index-menu-vid-box",
+    "index-wood"
   ]
 }
