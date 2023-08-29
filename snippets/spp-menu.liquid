@@ -98,7 +98,9 @@
             
           </a>
         {%- endif -%}
-      <div class="linkDot"></div>
+      <div {%- if link.current %}
+                id="header__active-menu-item"
+              {% endif %} class="linkDot"></div>
       </li>
     {%- endfor -%}
   </ul>
