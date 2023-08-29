@@ -1,12 +1,160 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .heroWrap {
+    width: 100%;
+    background: url("https://cdn.shopify.com/s/files/1/0816/7306/0668/files/spp-home-hero.jpg?v=1692808587");
+    background-size: cover;
+    height: 756px;
+    position: relative;
+    z-index: 2;
+    top: -15px;
+    background-repeat: no-repeat;
+    display: block !important;
+    box-shadow: 0px 18px 36px #00000099;
+    border-bottom: 2px solid white;
+    padding: 5%;
   }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+  .tab {
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 35%;
+    z-index: 25;
+    right: 0;
+    width: 135px;
+    box-shadow: 0 0 12px;
+  }
 
-{% javascript %}
-{% endjavascript %}
+  .contentRightWrap {
+    width: 23%;
+    height: 90%;
+    background-color: white;
+    border: 1px solid #78B000;
+    outline: 6px solid white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .topRight {
+    height: 33%;
+    width: 100%;
+    background-color: #78B000;
+    
+  }
+
+  .topRight h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+    color: white;
+  }
+
+  .midRight {
+    height: 34%;
+    width: 100%;
+  }
+
+  .midRight {
+    position: relative;
+    margin: 0 auto;
+    top: -135px;
+    right: 55px;
+  }
+
+  .bottomRight {
+    height: 33%;
+    width: 100%;
+    color: black;
+  }
+
+  .bottomRight p {
+    line-height: 1.2;
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+
+  .bottomRight a {
+    text-decoration: none;
+  }
+
+  .contentLeftWrap {
+    width: 75%;
+    height: 90%;
+    position: absolute;
+    right: 0;
+    top: 8%;
+    padding-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+  }
+
+  .heroInfoBox {
+    width: 60%;
+    height: 75%;
+    position: absolute;
+    right: 340px;
+    z-index: 1;
+    background-color: #000000bb;
+    padding: 20px 350px 40px 40px;
+  }
+
+  .heroInfoBox h2 {
+    color: white;
+    font-size: 6.5rem;
+    font-weight: bold;
+  }
+
+  .heroInfoBox h6 {
+    color: #E4FAB4;
+    font-size: 2.2rem;
+  }
+
+  .contentLeftWrap img {
+    position: absolute;
+    right: 40px;
+    z-index: 5;
+    object-fit: contain;
+  }
+
+  .bottomRightButton {
+    background-color: #78B000;
+    color: white;
+    padding: 5px 15px;
+    width: 33%;
+    border-radius: 12px;
+    box-shadow: 6px 6px 12px #00000055;
+    margin: 0 auto;
+  }
+</style>
+
+<div class="heroWrap">
+  <div class="tab">
+    <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Georgia_Grown_Logo_-_Centennial_Georgia_Farms_Logos.jpg?v=1693229115" />
+  </div>
+  <div class="contentRightWrap">
+    <div class="topRight">
+      <h5>Treat yourself with our <br>chocolate-covered pecans.</h5>
+    </div>
+    <div class="midRight">
+      <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/DSC_1841.png?v=1693246153" />
+    </div>
+    <div class="bottomRight">
+      <p>Milk Chocolate,<br>
+White Chocolate, Dark Chocolate</p>
+      <a href="https://southern-pecan-products.myshopify.com/pages/pecan-delights"><div class="bottomRightButton">Learn More</div></a>
+    </div>
+  </div>
+  <div class="contentLeftWrap">
+    <div class="heroInfoBox">
+      <h2><i>Heart Healthy. <br>Georgia Grown.</i></h2>
+      <h6>Experience the flavors of real Georgia pecans straight from the tree. Southern Pecan Products grows and harvests fresh Georgia pecans ideal for snacking, baking, and gifting to loved ones.</h6>
+    </div>
+    <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/DSC_3824.png?v=1693231731" />
+  </div>
+</div>
