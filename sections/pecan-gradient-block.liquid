@@ -1,12 +1,130 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .gradWrap {
+    width: 100%;
+    background-image: linear-gradient(#89a64b, #ebf8cd);
+    position: relative;
+    top: -150px;
   }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+  .infoBox {
+    outline: 15px solid white;
+    width: 90%;
+    border: 2px solid #78B000;
+    background: url(https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Mask_Group_3.jpg?v=1692899606);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+    top: -450px;
+  }
 
-{% javascript %}
-{% endjavascript %}
+  .backBoxHid {
+    position: relative;
+    z-index: 1;
+    width: 93%;
+    top: 265px;
+    background-color: #58810077;
+    display: block !important;
+    height: 650px;
+    margin: 0 auto;
+  }
+
+  .decoWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    
+  }
+
+  .decoBox {
+    width: 10px;
+    height: 600px;
+    display: block !important;
+    background-color: #6F573F77;
+    position: relative;
+  }
+
+  .innerInfoWrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .infoBlock {
+    width: 30%
+  }
+
+  .infoBlock h4 {
+    font-size: 2.4rem;
+    color: #6F573F;
+    font-weight: bold;
+  }
+
+  .infoBlock p {
+    font-size: 1.8rem;
+    margin-top: 20px;
+  }
+
+  .imgBlock {
+    width: 55%;
+    object-fit: contain;
+  }
+
+  .imgBlock img {
+    
+    width: auto;
+    height: auto;
+  }
+
+  .decoNut {
+    position: absolute;
+    z-index: 999;
+    width: 150px;
+  }
+
+  .nutLeft {
+    left: -80px;
+  }
+
+  .nutRight {
+    right: -90px;
+  }
+
+  .lowLogo {
+    width: 250px;
+    position: absolute;
+    z-index: 999;
+    top: 30px;
+    right: 30px;
+  }
+</style>
+
+<div class="gradWrap">
+    <div class="backBoxHid"></div>
+    <div class="infoBox">
+      <div class="decoWrap">
+        <img class="decoNut nutLeft" src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/AdobeStock_531421706.png?v=1693254067" />
+      <div class="decoBox decoBoxLeft"></div>
+        <div class="innerInfoWrap">
+          <div class="imgBlock">
+          <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Mask_Group_30.jpg?v=1693339234" loading="lazy" />
+        </div>
+        <div class="infoBlock">
+          <h4>Heart Healthy</h4>
+          <p>Pecans are packed with vitamins and minerals: Vitamins A, B, E, folic acid, calcium, magnesium, phosphorus, potassium, and zinc. A 1-ounce serving of pecans (about 20 halves) contains 196 calories, 20.4 grams total fat (1.8 saturated fat), 0 cholesterol, 0 sodium, and 2.7 grams of dietary fiber.</p>
+          <p>Browse the varieties of in-shell, shelled, and cracked pecans in the sizes that fit your needs.</p>
+        </div>
+        
+      </div>
+      <div class="decoBox decoBoxRight"></div>
+        <img class="decoNut nutRight" src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/AdobeStock_531421706.png?v=1693254067" />
+      </div>
+      
+    </div>
+</div>
