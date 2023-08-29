@@ -10,8 +10,8 @@
       "settings": {
       }
     },
-    "index-gradient-block": {
-      "type": "index-gradient-block",
+    "pecan-gradient-block": {
+      "type": "pecan-gradient-block",
       "settings": {
       }
     },
@@ -29,7 +29,7 @@
   "order": [
     "spp-header-bar",
     "spp-pecan-hero",
-    "index-gradient-block",
+    "pecan-gradient-block",
     "index-menu-vid-box",
     "index-wood"
   ]
