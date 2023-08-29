@@ -2832,7 +2832,7 @@ details[open] > .header__menu-item .icon-caret {
   text-underline-offset: 0.3rem;
 }
 
-.header__active-menu-item .linkDot {
+#header__active-menu-item {
   background-color: #78B000;
 }
 
