@@ -4,9 +4,33 @@
       "type": "spp-header-bar",
       "settings": {
       }
+    },
+    "spp-index-hero": {
+      "type": "spp-index-hero",
+      "settings": {
+      }
+    },
+    "index-gradient-block": {
+      "type": "index-gradient-block",
+      "settings": {
+      }
+    },
+    "index-menu-vid-box": {
+      "type": "index-menu-vid-box",
+      "settings": {
+      }
+    },
+    "index-wood": {
+      "type": "index-wood",
+      "settings": {
+      }
     }
   },
   "order": [
-    "spp-header-bar"
+    "spp-header-bar",
+    "spp-index-hero",
+    "index-gradient-block",
+    "index-menu-vid-box",
+    "index-wood"
   ]
 }
