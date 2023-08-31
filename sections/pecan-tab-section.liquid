@@ -1,12 +1,189 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .menuVidWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    position: relative;
+    top: -500px;
+    box-shadow: 0 -3px 16px #588100;
   }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+  .bowTop {
+    width: 85%;
+    position: relative;
+    top: -35px;
+    border-radius: 35px;
+    display: block !important;
+    background-color: white;
+    min-height: 400px;
+  }
 
-{% javascript %}
-{% endjavascript %}
+  .menuVidBox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+  }
+
+  .menuBox {
+    background-color: #78B000;
+    text-align: center;
+    width: 30%;
+  }
+
+  .whiteBox {
+    background-color: white;
+    padding: 15px 0;
+  }
+
+  .whiteBox h3 {
+    font-size: 2.8rem;
+    color: #6B6B6B;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .menuBox ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .menuBox ul li:not(:first-child) {
+    padding: 20px 0;
+    border-bottom: 2px dotted #FFFFFF;
+    margin-left: 20px;
+    list-style-type: square;
+    list-style-position: inside;
+    margin: 0 25px;
+    padding-left: 25px;
+    font-size: 2.4rem;
+  }
+
+  .menuBox ul li:last-child {
+    border-bottom: none;
+  }
+
+  .menuBox ul li {
+    color: white;
+    text-align: left;
+  }
+
+  .menuBox ul li img {
+    position: relative;
+    top: 0;
+    width: 100%
+  }
+
+  .imgLi {
+    object-fit: cover;
+  }
+
+  .vidBox {
+    width: 62%;
+    border: 6px solid white;
+    outline: 2px solid #78B000;
+  }
+
+  .reviewBox {
+    width: 100%;
+    background-color: #EBF8CE;
+    border-radius: 15px;
+    display: flex;
+    border: 1px solid #78B000;
+    margin-top: 20px;
+  }
+
+  .revLeft {
+    display: flex;
+    width: 30%;
+    padding: 0 25px;
+    margin: 10px 0;
+    border-right: 1px solid #6B6B6B;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .revLeft img {
+    max-height: 150px;
+  }
+
+  .revName {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    object-fit: contain;
+    width: 50%
+  }
+
+  .revName h5 {
+    font-size: 1.6rem;
+    color: #78B000;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .revName p {
+    font-size: 1.6rem;
+    margin: 0;
+    color: black;
+  }
+
+  .revName img {
+    max-width: 150px;
+  }
+
+  .revRight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .revRight p {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+  }
+</style>
+
+<div class="menuVidWrap">
+  <div class="bowTop">
+    <div class="menuVidBox">
+      <div class="menuBox">
+        <div class="whiteBox">
+        <h3>Product Categories</h3>
+        </div>
+        <ul>
+          <li class="imgLi">
+            <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_191.jpg?v=1692910681" loading="lazy" />
+          </li>
+          <li>Shelled Pecans</li>
+          <li>In Shell Pecans</li>
+          <li>Cracked Pecans</li>
+          <li>Roasted Pecan</li>
+          <li>Pecan Treats</li>
+          <li>Holiday Tins</li>
+        </ul>
+      </div>
+      <div class="vidBox">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pp9-OOMnQT0" title="Southern Pecan Products" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="reviewBox">
+      <div class="revLeft">
+        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Mask_Group_4.jpg?v=1692972232" loading="lazy" />
+        <div class="revName">
+          <h5>Amanda N.</h5>
+          <p>Georgia</p>
+          <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_25.jpg?v=1692972231" loading="lazy" />
+        </div>
+      </div>
+      <div class="revRight">
+        <p>"Love their pecans! I bought the praline and white chocolate ones!!!"</p>
+        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Ellipse_12.jpg?v=1692972231" loading="lazy" />
+      </div>
+    </div>
+  </div>
+</div>
