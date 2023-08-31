@@ -15,8 +15,8 @@
       "settings": {
       }
     },
-    "index-menu-vid-box": {
-      "type": "index-menu-vid-box",
+    "pecan-tab-section": {
+      "type": "pecan-tab-section",
       "settings": {
       }
     },
@@ -30,7 +30,7 @@
     "spp-header-bar",
     "spp-pecan-hero",
     "pecan-gradient-block",
-    "index-menu-vid-box",
+    "pecan-tab-section",
     "index-wood"
   ]
 }
