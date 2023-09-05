@@ -4,9 +4,15 @@
       "type": "spp-header-bar",
       "settings": {
       }
+    },
+    "spp-delights-hero": {
+      "type": "spp-delights-hero",
+      "settings": {
+      }
     }
   },
   "order": [
-    "spp-header-bar"
+    "spp-header-bar",
+    "spp-delights-hero"
   ]
 }
