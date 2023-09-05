@@ -1,12 +1,78 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .reviewBox {
+    width: 100%;
+    background-color: #EBF8CE;
+    border-radius: 15px;
+    display: flex;
+    border: 1px solid #78B000;
+    margin-top: 20px;
   }
-{% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+  .revLeft {
+    display: flex;
+    width: 30%;
+    padding: 0 25px;
+    margin: 10px 0;
+    border-right: 1px solid #6B6B6B;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-{% javascript %}
-{% endjavascript %}
+  .revLeft img {
+    max-height: 150px;
+  }
+
+  .revName {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    object-fit: contain;
+    width: 50%
+  }
+
+  .revName h5 {
+    font-size: 1.6rem;
+    color: #78B000;
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .revName p {
+    font-size: 1.6rem;
+    margin: 0;
+    color: black;
+  }
+
+  .revName img {
+    max-width: 150px;
+  }
+
+  .revRight {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+
+  .revRight p {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: bold;
+  }
+</style>
+
+
+<div class="reviewBox">
+      <div class="revLeft">
+        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Mask_Group_4.jpg?v=1692972232" loading="lazy" />
+        <div class="revName">
+          <h5>Amanda N.</h5>
+          <p>Georgia</p>
+          <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_25.jpg?v=1692972231" loading="lazy" />
+        </div>
+      </div>
+      <div class="revRight">
+        <p>"Love their pecans! I bought the praline and white chocolate ones!!!"</p>
+        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Ellipse_12.jpg?v=1692972231" loading="lazy" />
+      </div>
+    </div>
