@@ -14,11 +14,17 @@
       "type": "delight-gradient-block",
       "settings": {
       }
+    },
+    "delight-tab-section": {
+      "type": "delight-tab-section",
+      "settings": {
+      }
     }
   },
   "order": [
     "spp-header-bar",
     "spp-delights-hero",
-    "delight-gradient-block"
+    "delight-gradient-block",
+    "delight-tab-section"
   ]
 }
