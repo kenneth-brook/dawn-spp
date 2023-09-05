@@ -36,13 +36,13 @@
     "753898f2-7689-4846-a2cc-1cd9363e9059": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "In Shell Pecans",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "in-shell-pecans",
-        "products_to_show": 2,
+        "products_to_show": 3,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
