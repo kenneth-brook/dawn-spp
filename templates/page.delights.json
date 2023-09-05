@@ -9,10 +9,16 @@
       "type": "spp-delights-hero",
       "settings": {
       }
+    },
+    "delight-gradient-block": {
+      "type": "delight-gradient-block",
+      "settings": {
+      }
     }
   },
   "order": [
     "spp-header-bar",
-    "spp-delights-hero"
+    "spp-delights-hero",
+    "delight-gradient-block"
   ]
 }
