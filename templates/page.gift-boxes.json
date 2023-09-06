@@ -23,13 +23,13 @@
       "settings": {
       }
     },
-    "delight-gradient-block": {
-      "type": "delight-gradient-block",
+    "gift-gradient-block": {
+      "type": "gift-gradient-block",
       "settings": {
       }
     },
-    "delight-tab-section": {
-      "type": "delight-tab-section",
+    "gift-tab-section": {
+      "type": "gift-tab-section",
       "settings": {
       }
     },
@@ -65,8 +65,8 @@
   "order": [
     "spp-header-bar",
     "spp-gift-hero",
-    "delight-gradient-block",
-    "delight-tab-section",
+    "gift-gradient-block",
+    "gift-tab-section",
     "f4a6d1d0-5d82-43ae-bfea-744e127a1c1f"
   ]
 }
