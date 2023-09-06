@@ -23,6 +23,16 @@
       "settings": {
       }
     },
+    "delight-gradient-block": {
+      "type": "delight-gradient-block",
+      "settings": {
+      }
+    },
+    "delight-tab-section": {
+      "type": "delight-tab-section",
+      "settings": {
+      }
+    },
     "f4a6d1d0-5d82-43ae-bfea-744e127a1c1f": {
       "type": "featured-collection",
       "settings": {
@@ -55,6 +65,8 @@
   "order": [
     "spp-header-bar",
     "spp-gift-hero",
+    "delight-gradient-block",
+    "delight-tab-section",
     "f4a6d1d0-5d82-43ae-bfea-744e127a1c1f"
   ]
 }
