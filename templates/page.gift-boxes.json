@@ -17,9 +17,15 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "spp-delights-hero": {
+      "type": "spp-delights-hero",
+      "settings": {
+      }
     }
   },
   "order": [
-    "spp-header-bar"
+    "spp-header-bar",
+    "spp-delights-hero"
   ]
 }
