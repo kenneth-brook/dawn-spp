@@ -23,6 +23,16 @@
       "settings": {
       }
     },
+    "gift-gradient-block": {
+      "type": "gift-gradient-block",
+      "settings": {
+      }
+    },
+    "gift-tab-section": {
+      "type": "gift-tab-section",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -44,6 +54,8 @@
   "order": [
     "spp-header-bar",
     "spp-contact-hero",
+    "gift-gradient-block",
+    "gift-tab-section",
     "main",
     "form"
   ]
