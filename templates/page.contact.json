@@ -18,8 +18,8 @@
         "padding_bottom": 20
       }
     },
-    "spp-delights-hero": {
-      "type": "spp-delights-hero",
+    "spp-contact-hero": {
+      "type": "spp-contact-hero",
       "settings": {
       }
     },
@@ -43,7 +43,7 @@
   },
   "order": [
     "spp-header-bar",
-    "spp-delights-hero",
+    "spp-contact-hero",
     "main",
     "form"
   ]
