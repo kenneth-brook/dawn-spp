@@ -18,6 +18,11 @@
         "padding_bottom": 20
       }
     },
+    "spp-contact-hero": {
+      "type": "spp-contact-hero",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -38,6 +43,7 @@
   },
   "order": [
     "spp-header-bar",
+    "spp-contact-hero",
     "main",
     "form"
   ]
