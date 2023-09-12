@@ -28,6 +28,69 @@
 <noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
+  .headWrap {
+    width: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 3;
+  }
+
+  .headTop {
+    background: url("https://cdn.shopify.com/s/files/1/0816/7306/0668/files/spptophead.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    top: 0;
+  }
+
+  .icoWrap {
+    width: 15%;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    position: absolute;
+    right: 10px;
+    
+    display: flex;
+    z-index: 20;
+  }
+
+  .list-social__item .icon {
+    color: white;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+  }
+
+  .headBottom {
+    background-color: #78B000;
+    width: 100%;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    border-bottom: 3px solid white;
+  }
+
+  .logoWrap {
+    background: url("https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_7.png?");
+    background-repeat: no-repeat;
+    height: 195px;
+    width: 365px;
+    position: absolute;
+    left: 25px;
+    top: -70px;
+    display: block !important;
+    z-index: 10;
+  }
+
+  .shopify-section {
+    position: relative;
+  }
+
+  .headTop h1, .headBottom h1 {
+    margin-top: 0;
+  }
+  
   header-drawer {
     justify-self: start;
     margin-left: -1.2rem;
@@ -119,6 +182,10 @@
         height: 20px;
         margin-top: 36px;
       }
+
+    .logoWrap {
+      width: 295px;
+    }
       }
 
   .linkDot {
@@ -193,72 +260,6 @@
     </a>
   </div>
 </div>
-
-
-<style>
-  .headWrap {
-    width: 100%;
-    background-color: #FFFFFF;
-    position: relative;
-    z-index: 3;
-  }
-
-  .headTop {
-    background: url("https://cdn.shopify.com/s/files/1/0816/7306/0668/files/spptophead.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 90px;
-    position: relative;
-    top: 0;
-  }
-
-  .icoWrap {
-    width: 15%;
-    justify-content: space-around;
-    align-items: center;
-    height: 90px;
-    position: absolute;
-    right: 10px;
-    
-    display: flex;
-    z-index: 20;
-  }
-
-  .list-social__item .icon {
-    color: white;
-    width: 3.5rem !important;
-    height: 3.5rem !important;
-  }
-
-  .headBottom {
-    background-color: #78B000;
-    width: 100%;
-    height: 70px;
-    position: relative;
-    top: 10px;
-    border-bottom: 3px solid white;
-  }
-
-  .logoWrap {
-    background: url("https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_7.png?");
-    background-repeat: no-repeat;
-    height: 195px;
-    width: 365px;
-    position: absolute;
-    left: 25px;
-    top: -70px;
-    display: block !important;
-    z-index: 10;
-  }
-
-  .shopify-section {
-    position: relative;
-  }
-
-  .headTop h1, .headBottom h1 {
-    margin-top: 0;
-  }
-</style>
 
 
 {% schema %}
