@@ -54,6 +54,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .infoBlock {
@@ -78,14 +79,19 @@
 
   .imgBlock img {
     
-    width: auto;
-    height: auto;
+    width: 100%;
   }
 
   .decoNut {
     position: absolute;
     z-index: 999;
     width: 150px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .decoNut {
+      display: none;
+    }
   }
 
   .nutLeft {
