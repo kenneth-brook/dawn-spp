@@ -1,10 +1,18 @@
 {
   "sections": {
+    "spp-header-bar": {
+      "type": "spp-header-bar",
+      "settings": {
+      }
+    },
     "main": {
-      "type": "main-login"
+      "type": "main-login",
+      "settings": {
+      }
     }
   },
   "order": [
+    "spp-header-bar",
     "main"
   ]
 }
