@@ -38,6 +38,7 @@
     text-align: center;
     position: relative;
     top: 50px;
+    object-fit: contain;
   }
 
   .topRight {
@@ -64,6 +65,13 @@
     margin: 0 auto;
     top: -135px;
     right: 55px;
+    object-fit: contain;
+    width: 500px;
+  }
+
+  .midRight img {
+    object-fit: contain;
+    margin: auto;
   }
 
   .bottomRight {
@@ -96,7 +104,7 @@
 
   .heroInfoBox {
     width: 60%;
-    height: 75%;
+    height: fit-content;
     position: absolute;
     right: 340px;
     z-index: 1;
@@ -128,7 +136,7 @@
     background-color: #78B000;
     color: white;
     padding: 5px 15px;
-    width: 33%;
+    width: fit-content;
     border-radius: 12px;
     box-shadow: 6px 6px 12px #00000055;
     margin: 0 auto;
