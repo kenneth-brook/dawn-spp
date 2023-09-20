@@ -22,88 +22,52 @@
     box-shadow: 0 0 16px #000000dd
   }
 
-  .rowWrap {
+  .headTitle {
+    padding: 25px 40px;
+  }
+
+  .allCardWrap {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
-    height: 100%;
-    justify-content: space-around;
+    padding: 20px 45px;
   }
 
-  .dubBox {
-    width: 48.9%;
+  .cardWrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
     
-    display: block !important;
-    margin-top: 15px;
   }
 
-  .dubBox img {
-    object-fit: cover !important;
-    width: 100%;
-    height: 100%;
+  .shadowWrap {
+    
   }
 
-  .sBox {
-    width: 24%;
-    object-fit: cover !important;
-    display: block !important;
-    margin-top: 15px;
+  .ingred {
+    
   }
 
-  .sBox img {
-    object-fit: cover !important;
-    width: 100%;
-    height: 100%;
-  }
-
-  @media screen and (max-width: 1060px) {
-    .rowWrap {
-      justify-content: space-between;
-    }
-    .dubBox {
-      min-width: 300px;
-    }
-    .sBox {
-      min-width: 146px;
-    }
+  .instruct {
+    
   }
 </style>
 
 <div class="woodWrap">
   <div class="greenBox">
-    <div class="rowWrap">
-      <div class="dubBox">
-        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Mask_Group_28.jpg?v=1692985750" />
-      </div>
-      <div class="sBox sBox1">
-        <a href="https://southern-pecan-products.myshopify.com/pages/pecans#shopify-section-template--20712611938620__7b5009ff-4115-4938-8251-2b93aa453610">
-        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_87.jpg?v=1692985750" />
-          </a>
-      </div>
-      <div class="sBox sBox2">
-        <a href="pages/gift-boxes">
-        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_88.jpg?v=1692985855" />
-          </a>
-      </div>
-      <div class="sBox sBox3">
-        <a href="pages/pecan-delights">
-        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_92.jpg?v=1692985903" />
-          </a>
-      </div>
-      <div class="sBox sBox4">
-        <a href="pages/pecan-delights">
-        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_89.jpg?v=1692985963" />
-          </a>
-      </div>
-      <div class="sBox sBox5">
-        <a href="https://southern-pecan-products.myshopify.com/pages/pecans#shopify-section-template--20712611938620__753898f2-7689-4846-a2cc-1cd9363e9059">
-        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_91.jpg?v=1692986022" />
-          </a>
-      </div>
-      <div class="sBox sBox6">
-        <a href="https://southern-pecan-products.myshopify.com/pages/pecans#shopify-section-template--20712611938620__9bb0f9d6-ddbf-4b31-99a0-773966deafdf">
-        <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Group_90.jpg?v=1692986071" />
-          </a>
+    <div class="headTitle">
+      <img src="https://cdn.shopify.com/s/files/1/0816/7306/0668/files/Component_1_1.png?v=1695229497" />
+    </div>
+    <div class="allCardWrap">
+      <div class="cardWrap">
+        <div class="title"></div>
+        <div class="shadowWrap">
+        <div class="ingred"></div>
+        <div class="instruct"></div>
+        </div>
       </div>
     </div>
   </div>
