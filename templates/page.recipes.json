@@ -5,14 +5,14 @@
       "settings": {
       }
     },
-    "index-wood": {
-      "type": "index-wood",
+    "recipe-wood": {
+      "type": "recipe-wood",
       "settings": {
       }
     }
   },
   "order": [
     "spp-header-bar",
-    "index-wood"
+    "recipe-wood"
   ]
 }
