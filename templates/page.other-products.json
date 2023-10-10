@@ -36,12 +36,12 @@
     "615727bb-6f0b-4e66-80aa-dc39c22e5687": {
       "type": "featured-collection",
       "settings": {
-        "title": "Pecan Delights",
+        "title": "Pecan Oil",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "delights",
+        "collection": "oil",
         "products_to_show": 12,
         "columns_desktop": 3,
         "full_width": false,
