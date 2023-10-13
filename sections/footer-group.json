@@ -2,52 +2,41 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "footer": {
-      "type": "footer",
+    "824ea4bf-2a5a-406c-ba93-710e095f4039": {
+      "type": "newsletter",
       "blocks": {
-        "footer-0": {
-          "type": "link_list",
+        "sections--20710880084284__824ea4bf-2a5a-406c-ba93-710e095f4039-heading-1": {
+          "type": "heading",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
           }
         },
-        "footer-1": {
-          "type": "link_list",
+        "sections--20710880084284__824ea4bf-2a5a-406c-ba93-710e095f4039-email_form-1": {
+          "type": "email_form",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
-          }
-        },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "sections--20710880084284__824ea4bf-2a5a-406c-ba93-710e095f4039-heading-1",
+        "sections--20710880084284__824ea4bf-2a5a-406c-ba93-710e095f4039-email_form-1"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "show_social": true,
-        "enable_country_selector": false,
-        "enable_language_selector": false,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
       }
     }
   },
   "order": [
+    "824ea4bf-2a5a-406c-ba93-710e095f4039",
     "footer"
   ]
 }
