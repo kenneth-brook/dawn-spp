@@ -374,7 +374,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".smartbar-message {padding-bottom: 20px; }"
+      ".smartbar-bar {height: 55px;}"
     ]
   }
 }
