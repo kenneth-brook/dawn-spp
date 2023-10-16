@@ -1,10 +1,5 @@
 {
   "sections": {
-    "spp-header-bar": {
-      "type": "spp-header-bar",
-      "settings": {
-      }
-    },
     "main": {
       "type": "main-register",
       "settings": {
@@ -12,7 +7,6 @@
     }
   },
   "order": [
-    "spp-header-bar",
     "main"
   ]
 }
