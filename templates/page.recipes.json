@@ -1,10 +1,5 @@
 {
   "sections": {
-    "spp-header-bar": {
-      "type": "spp-header-bar",
-      "settings": {
-      }
-    },
     "recipe-wood": {
       "type": "recipe-wood",
       "settings": {
@@ -12,7 +7,6 @@
     }
   },
   "order": [
-    "spp-header-bar",
     "recipe-wood"
   ]
 }
