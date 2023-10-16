@@ -195,6 +195,10 @@
         <p>info@southernpecanproducts.com</p></a>
       </div>
     </div>
+
+    {% for link in linklists.main-menu.links %}
+      <a href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
     
     <div class="footIcos">
       <a href="https://www.facebook.com/SouthernPecanProducts" target="_blank">
