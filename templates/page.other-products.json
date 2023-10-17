@@ -5,8 +5,8 @@
       "settings": {
       }
     },
-    "delight-gradient-block": {
-      "type": "delight-gradient-block",
+    "oil-gradient-block": {
+      "type": "oil-gradient-block",
       "settings": {
       }
     },
@@ -46,7 +46,7 @@
   },
   "order": [
     "spp-delights-hero",
-    "delight-gradient-block",
+    "oil-gradient-block",
     "delight-tab-section",
     "615727bb-6f0b-4e66-80aa-dc39c22e5687"
   ]
