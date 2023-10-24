@@ -95,7 +95,7 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "social_facebook_link": "https:\/\/www.facebook.com\/SouthernPecanProducts",
-    "social_instagram_link": "",
+    "social_instagram_link": "https:\/\/www.instagram.com\/southernpecanproducts\/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -375,7 +375,7 @@
   "platform_customizations": {
     "custom_css": [
       ".smartbar-bar {height: 60px !important;}",
-      "@media screen and (max-width: 1024px) {.smartbar-bar {height: 92px !important;}}"
+      "@media screen and (max-width: 1024px) {.smartbar-bar {height: 92px !important; }}"
     ]
   }
 }
