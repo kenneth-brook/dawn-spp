@@ -185,6 +185,14 @@
           "shadow": "#121212"
         }
       }
+    },
+    "blocks": {
+      "qikify-smartbar-1698983455": {
+        "type": "shopify:\/\/apps\/qikify-timer-announcement-bar\/blocks\/app-embed\/265b948a-6ec4-4b9d-b633-5fc8919433eb",
+        "disabled": false,
+        "settings": {
+        }
+      }
     }
   },
   "presets": {
