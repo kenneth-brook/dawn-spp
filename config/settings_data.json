@@ -129,6 +129,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "qikify-smartbar-1698983455": {
+        "type": "shopify:\/\/apps\/qikify-timer-announcement-bar\/blocks\/app-embed\/265b948a-6ec4-4b9d-b633-5fc8919433eb",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -183,14 +191,6 @@
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
-        }
-      }
-    },
-    "blocks": {
-      "qikify-smartbar-1698983455": {
-        "type": "shopify:\/\/apps\/qikify-timer-announcement-bar\/blocks\/app-embed\/265b948a-6ec4-4b9d-b633-5fc8919433eb",
-        "disabled": false,
-        "settings": {
         }
       }
     }
@@ -385,7 +385,8 @@
     "custom_css": [
       ".smartbar-bar {height: 60px !important;}",
       "@media screen and (max-width: 1024px) {.smartbar-bar {height: 92px !important; }}",
-      ".list-social {display: flex;}"
+      ".list-social {display: flex;}",
+      ".card--standard .card__inner {--ratio-percent: 100%;}"
     ]
   }
 }
