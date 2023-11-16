@@ -386,7 +386,7 @@
       ".smartbar-bar {height: 60px !important;}",
       "@media screen and (max-width: 1024px) {.smartbar-bar {height: 92px !important; }}",
       ".list-social {display: flex;}",
-      ".card--standard .card__inner {--ratio-percent: 100%;}"
+      ".card--standard .card__inner {--ratio-percent: 100% !important;}"
     ]
   }
 }
