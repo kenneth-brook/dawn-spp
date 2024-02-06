@@ -176,14 +176,26 @@
     }
   }
 
-  .reviewBox {
-    display: none;
-    opacity: 0;
+  .reviewCarousel {
+    position: relative;
+    /* Set a fixed height and width as per your content's requirement */
+    height: 300px; /* Example height, adjust based on your content */
+    width: 100%; /* Adjust based on your layout */
+    overflow: hidden; /* Ensures nothing spills outside the container */
+}
+
+.reviewBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex; /* change from none to block */
+    opacity: 0; /* Start invisible */
     transition: opacity 1s ease-in-out;
 }
 
-.reviewBox.active {
-    display: flex;
+  .reviewBox.active {
     opacity: 1;
 }
 </style>
@@ -269,23 +281,15 @@
     const reviews = document.querySelectorAll('.reviewBox');
     const totalReviews = reviews.length;
 
-    // Initially, display the first review
-    reviews[0].style.display = 'block';
-    setTimeout(() => reviews[0].style.opacity = 1, 10); // Trigger fade in
-
     setInterval(() => {
         // Fade out the current review
-        reviews[currentIndex].style.opacity = 0;
-        setTimeout(() => {
-            reviews[currentIndex].style.display = 'none';
+        reviews[currentIndex].classList.remove('active');
 
-            // Move to the next review, or loop back to the first
-            currentIndex = (currentIndex + 1) % totalReviews;
+        // Prepare for next index
+        currentIndex = (currentIndex + 1) % totalReviews;
 
-            // Prepare next review to fade in
-            reviews[currentIndex].style.display = 'block';
-            setTimeout(() => reviews[currentIndex].style.opacity = 1, 10); // Trigger fade in
-        }, 1000); // This timeout matches the CSS transition time
+        // Fade in the next review
+        reviews[currentIndex].classList.add('active');
     }, 5000); // Change the review every 5 seconds
 });
 </script>
