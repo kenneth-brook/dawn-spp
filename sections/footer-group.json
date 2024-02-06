@@ -2,6 +2,22 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "17072283526318a8fe": {
+      "type": "apps",
+      "blocks": {
+        "testimonials_master_testimonial_MU4cEL": {
+          "type": "shopify:\/\/apps\/testimonials-master\/blocks\/testimonial\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "testimonials_master_testimonial_MU4cEL"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "824ea4bf-2a5a-406c-ba93-710e095f4039": {
       "type": "newsletter",
       "blocks": {
@@ -36,6 +52,7 @@
     }
   },
   "order": [
+    "17072283526318a8fe",
     "824ea4bf-2a5a-406c-ba93-710e095f4039",
     "footer"
   ]
