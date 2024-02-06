@@ -135,6 +135,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "13641931944027063201": {
+        "type": "shopify:\/\/apps\/testimonials-master\/blocks\/TestimonialMasterScript-js\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
