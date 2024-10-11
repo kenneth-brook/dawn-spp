@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo_width": 90,
@@ -95,8 +104,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "https:\/\/www.facebook.com\/SouthernPecanProducts",
-    "social_instagram_link": "https:\/\/www.instagram.com\/southernpecanproducts\/",
+    "social_facebook_link": "https://www.facebook.com/SouthernPecanProducts",
+    "social_instagram_link": "https://www.instagram.com/southernpecanproducts/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -131,19 +140,19 @@
     ],
     "blocks": {
       "qikify-smartbar-1698983455": {
-        "type": "shopify:\/\/apps\/qikify-timer-announcement-bar\/blocks\/app-embed\/265b948a-6ec4-4b9d-b633-5fc8919433eb",
+        "type": "shopify://apps/qikify-timer-announcement-bar/blocks/app-embed/265b948a-6ec4-4b9d-b633-5fc8919433eb",
         "disabled": false,
         "settings": {
         }
       },
       "13641931944027063201": {
-        "type": "shopify:\/\/apps\/testimonials-master\/blocks\/TestimonialMasterScript-js\/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
+        "type": "shopify://apps/testimonials-master/blocks/TestimonialMasterScript-js/be4869c4-ba39-4c3b-b703-8e75dbe5b018",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#000000",
