@@ -1,19 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "spp-gift-hero": {
       "type": "spp-gift-hero",
-      "settings": {
-      }
+      "settings": {}
     },
     "gift-gradient-block": {
       "type": "gift-gradient-block",
-      "settings": {
-      }
+      "settings": {}
     },
     "gift-tab-section": {
       "type": "gift-tab-section",
-      "settings": {
-      }
+      "settings": {}
     },
     "f4a6d1d0-5d82-43ae-bfea-744e127a1c1f": {
       "type": "featured-collection",
@@ -24,7 +30,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "holiday",
-        "products_to_show": 4,
+        "products_to_show": 10,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
