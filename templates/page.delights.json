@@ -1,19 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "spp-delights-hero": {
       "type": "spp-delights-hero",
-      "settings": {
-      }
+      "settings": {}
     },
     "delight-gradient-block": {
       "type": "delight-gradient-block",
-      "settings": {
-      }
+      "settings": {}
     },
     "delight-tab-section": {
       "type": "delight-tab-section",
-      "settings": {
-      }
+      "settings": {}
     },
     "615727bb-6f0b-4e66-80aa-dc39c22e5687": {
       "type": "featured-collection",
@@ -24,7 +30,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "delights",
-        "products_to_show": 12,
+        "products_to_show": 25,
         "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
