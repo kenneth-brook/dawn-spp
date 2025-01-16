@@ -11,18 +11,15 @@
   "sections": {
     "spp-pecan-hero": {
       "type": "spp-pecan-hero",
-      "settings": {
-      }
+      "settings": {}
     },
     "pecan-gradient-block": {
       "type": "pecan-gradient-block",
-      "settings": {
-      }
+      "settings": {}
     },
     "pecan-tab-section": {
       "type": "pecan-tab-section",
-      "settings": {
-      }
+      "settings": {}
     },
     "753898f2-7689-4846-a2cc-1cd9363e9059": {
       "type": "featured-collection",
@@ -54,8 +51,7 @@
     },
     "pecan-rev": {
       "type": "pecan-rev",
-      "settings": {
-      }
+      "settings": {}
     },
     "9bb0f9d6-ddbf-4b31-99a0-773966deafdf": {
       "type": "featured-collection",
@@ -66,8 +62,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "shelled-pecans",
-        "products_to_show": 3,
-        "columns_desktop": 3,
+        "products_to_show": 8,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
